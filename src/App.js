@@ -8,6 +8,10 @@ import SignUp from './Pages/Accounts/SignUp';
 import RequireAuth from './Pages/Accounts/RequireAuth';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Dashboard from './Pages/DashBoard/DashBoard';
+import MyBooking from './Pages/DashBoard/MyBooking';
+import Users from './Pages/DashBoard/Users';
+import MyProfile from './Pages/DashBoard/MyProfile';
 
 function App() {
   return (
@@ -23,6 +27,14 @@ function App() {
             <AvailableTours />
           </RequireAuth>
         }></Route>
+
+        <Route path='/dashboard' element={
+          <Dashboard></Dashboard>
+        }>
+          <Route index element={<MyBooking></MyBooking>}></Route>
+          <Route path='/dashboard/profile' element={<MyProfile></MyProfile>}></Route>
+          <Route path='/dashboard/users' element={<Users></Users>}></Route>
+        </Route>
 
       </Routes>
       <ToastContainer />
