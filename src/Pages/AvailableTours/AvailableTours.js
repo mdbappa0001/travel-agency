@@ -7,7 +7,7 @@ const AvailableTours = () => {
     const [confirm, setConfirm] = useState(null);
 
     useEffect(() => {
-        fetch('tour.json')
+        fetch('http://localhost:5000/tour')
             .then(res => res.json())
             .then(data => setTours(data));
     }, [])

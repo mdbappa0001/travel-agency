@@ -6,6 +6,8 @@ import AvailableTours from './Pages/AvailableTours/AvailableTours';
 import Login from './Pages/Accounts/Login';
 import SignUp from './Pages/Accounts/SignUp';
 import RequireAuth from './Pages/Accounts/RequireAuth';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         }></Route>
 
       </Routes>
+      <ToastContainer />
     </>
   );
 }
