@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import AvailableTour from './AvailableTour';
+import OpenModal from './OpenModal';
 
 const AvailableTours = () => {
     const [tours, setTours] = useState([]);
+    const [confirm, setConfirm] = useState(null);
 
     useEffect(() => {
         fetch('tour.json')
@@ -18,9 +20,14 @@ const AvailableTours = () => {
                     tours.map(tour => <AvailableTour
                         key={tour._id}
                         tour={tour}
+                        setConfirm={setConfirm}
                     ></AvailableTour>)
                 }
             </div>
+            {confirm && <OpenModal
+                confirm={confirm}
+                setConfirm={setConfirm}
+            ></OpenModal>}
         </div>
     );
 };
