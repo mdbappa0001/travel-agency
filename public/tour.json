@@ -1,0 +1,44 @@
+[
+    {
+      "_id": 1,
+      "tourName": "App Development",
+      "img": "https://i.ibb.co/64XFtCj/tour6.png",
+      "cost": 500,
+      "location": "Paris"
+    },
+    {
+      "_id": 1,
+      "tourName": "App Development",
+      "img": "https://i.ibb.co/Pwc7MQr/tour5.png",
+      "cost": 350,
+      "location": "Cuba"
+    },
+    {
+      "_id": 1,
+      "tourName": "App Development",
+      "img": "https://i.ibb.co/yVkRND0/tour-4.png",
+      "cost": 400,
+      "location": "Japan"
+    },
+    {
+      "_id": 1,
+      "tourName": "App Development",
+      "img": "https://i.ibb.co/Rj4pCYs/tour3.png",
+      "cost": 220,
+      "location": "Thailand"
+    },
+    {
+      "_id": 1,
+      "tourName": "App Development",
+      "img": "https://i.ibb.co/hHm316V/tour2.png",
+      "cost": 70,
+      "location": "LightHouse"
+    },
+    {
+      "_id": 1,
+      "tourName": "App Development",
+      "img": "https://i.ibb.co/1KYYMst/tour1.png",
+      "cost": 300,
+      "location": "Norway"
+    }
+]

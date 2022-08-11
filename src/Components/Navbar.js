@@ -9,7 +9,7 @@ const Navbar = () => {
 
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/appointment">Services</Link></li>
+        <li><Link to="/tour">AvailableTour</Link></li>
         <li><Link to="/review">Destination</Link></li>
         <li><Link to="/contact">Tour</Link></li>
         <li><Link to="/about">Offer</Link></li>
