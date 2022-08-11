@@ -14,7 +14,7 @@ const {img, cost, location} = tour;
             <label
                         onClick={() => setConfirm(tour)}
                         for="booking-modal"
-                        className="btn btn-sm btn-primary lg:mt-4 w-28 hover:btn-success">Confirm Now
+                        className="btn btn-sm btn-primary lg:mt-4 w-32 hover:btn-success">Confirm Now
                     </label>
             </div>
         </div>
